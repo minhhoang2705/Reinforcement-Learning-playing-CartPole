@@ -4,6 +4,7 @@ This repository contains an implementation of a Reinforcement Learning framework
 
 ## Project Structure
 
+```
 RL/
 |-- agent.py
 |-- environment.py
@@ -12,7 +13,7 @@ RL/
 |-- main.py
 |-- demo.py
 |-- README.md
-
+```
 
 - **agent.py:** Contains the DQNAgent class, which defines the agent's behavior and learning process.
 - **environment.py:** Contains the GameEnvironment class, which simulates the game environment.
