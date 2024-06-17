@@ -58,6 +58,6 @@ python demo.py
 After training, a plot of the total rewards per episode will be displayedm showing the learning progress of the agent.
 
 ## Demo Video
-A demo video of the agent playing the game can be found here (here)[https://drive.google.com/file/d/14wACXJGy5b452vsfVd6MLeeF2h4Hyh7N/view?usp=drivesdk]
+A demo video of the agent playing the game can be found here [here](https://drive.google.com/file/d/14wACXJGy5b452vsfVd6MLeeF2h4Hyh7N/view?usp=drivesdk)
 
 ## License
