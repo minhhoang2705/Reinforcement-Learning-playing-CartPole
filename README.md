@@ -6,27 +6,21 @@ This repository contains an implementation of a Reinforcement Learning framework
 
 ```
 RL/
-|-- agent.py
-|-- environment.py
-|-- replay_buffer.py
-|-- train.py
-|-- main.py
-|-- demo.py
+|-- test_agent.py
+|-- train_agent.py
+|-- visualizer.py
 |-- README.md
 ```
 
-- **agent.py:** Contains the DQNAgent class, which defines the agent's behavior and learning process.
-- **environment.py:** Contains the GameEnvironment class, which simulates the game environment.
-- **replay_buffer.py:** Contains the ReplayBuffer class, which stores the agent's experiences.
-- **train.py:** Contains the training loop for the DQN agent.
-- **main.py:** Entry point for training the agent.
-- **demo.py:** Script to record gameplay video.
+- **train_agent.py:** Contains the DQNAgent class, which defines the agent's behavior and learning process.
+- **test_agent.py:** Contains the test and demo for the DQN agent.
+- **visualizer.py:** Plot rewards and losses for the agent.
 
 ## Setup Instructions
 
 ### Prerequisites
 - Python 3.x
-- Libraries: numpy, torch, matplotlib, opencv-python
+- Libraries: tensorflow, gym, pygame, matplotlib
 
 ### Installation
 1. Clone the repository:
@@ -37,7 +31,7 @@ RL/
 
 2. Install the required libraries:
     ```bash
-    pip install numpy torch matplotlib opencv-python
+    pip install -r requirements.txt
     ```
 
 ## Running the Code
@@ -45,13 +39,13 @@ RL/
 ### Training the Agent
 To train the DQN agent, run the following command:
 ```
-python main.py
+python train_agent.py
 ```
 
 ### Recording Gameplay
 To record the agent's gameplay, run the follwoing command:
 ```
-python demo.py
+python test_agent.py
 ```
 
 ## Result 
